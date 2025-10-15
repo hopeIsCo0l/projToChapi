@@ -46,6 +46,10 @@ def save_waitlist(data):
 async def root():
     return {"message": "Waitlist API is running!"}
 
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy", "service": "waitlist-backend"}
+
 @app.post("/api/v1/waitlist/signup")
 async def signup_waitlist(entry: WaitlistEntry):
     waitlist = load_waitlist()
