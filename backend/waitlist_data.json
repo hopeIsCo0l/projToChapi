@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "email": "test@example.com",
+    "signup_date": "2025-10-15T14:19:18.778414"
+  },
+  {
+    "id": 2,
+    "email": "newuser@example.com",
+    "signup_date": "2025-10-15T14:20:20.713839"
+  },
+  {
+    "id": 3,
+    "email": "hope@hope.com",
+    "signup_date": "2025-10-15T14:22:15.111835"
+  },
+  {
+    "id": 4,
+    "email": "j@j.l",
+    "signup_date": "2025-10-15T14:23:21.067049"
+  },
+  {
+    "id": 5,
+    "email": "test@modernui.com",
+    "signup_date": "2025-10-15T14:42:46.448323"
+  }
+]
