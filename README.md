@@ -2,7 +2,7 @@
 
 A full-stack waitlist management system built with FastAPI, Next.js, and PostgreSQL. Users can join a waitlist, and administrators can view and manage entries through a secure dashboard.
 
-## 🚀 Live Demo
+## Live Demo
 
 - **Frontend (Waitlist)**: [https://your-frontend.vercel.app](https://your-frontend.vercel.app)
 - **Backend API**: [https://your-backend.onrender.com](https://your-backend.onrender.com)
@@ -10,7 +10,7 @@ A full-stack waitlist management system built with FastAPI, Next.js, and Postgre
 
 **Admin Password**: `admin123`
 
-## 🏗️ Architecture
+## Architecture
 
 - **Backend**: FastAPI with SQLAlchemy ORM
 - **Frontend**: Next.js 14 with TypeScript and Tailwind CSS
@@ -18,7 +18,7 @@ A full-stack waitlist management system built with FastAPI, Next.js, and Postgre
 - **Deployment**: Render (Backend) + Vercel (Frontend)
 - **Containerization**: Docker & Docker Compose
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 projtoChapi/
@@ -55,7 +55,7 @@ projtoChapi/
 └── README.md
 ```
 
-## 🚀 Quick Start (Local Development)
+## Quick Start (Local Development)
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ npm run dev
 - **API Documentation**: http://localhost:8000/docs
 - **Admin Password**: `admin123`
 
-## 🔧 Environment Variables
+## Environment Variables
 
 ### Backend (.env)
 
@@ -116,7 +116,7 @@ SMTP_PASSWORD=your-app-password
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
-## 📚 API Endpoints
+## API Endpoints
 
 ### Waitlist Endpoints
 
@@ -127,7 +127,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 - `GET /api/v1/admin/entries` - Get all waitlist entries (Basic Auth required)
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend (Render)
 
@@ -150,7 +150,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 1. Create a PostgreSQL database on Render
 2. Copy the connection string to your backend environment variables
 
-## 🛡️ Security Features
+## Security Features
 
 - **HTTP Basic Authentication** for admin endpoints
 - **CORS Configuration** for cross-origin requests
@@ -158,7 +158,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 - **SQL Injection Protection** via SQLAlchemy ORM
 - **Environment Variable Management** for sensitive data
 
-## 🎨 Features
+## Features
 
 ### User Features
 - Clean, responsive waitlist signup form
@@ -173,7 +173,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 - Responsive table design
 - Entry count and analytics
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Real email sending integration
 - [ ] Email templates and customization
@@ -186,7 +186,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 - [ ] Database migrations
 - [ ] Unit and integration tests
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -203,14 +203,14 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
    - Verify `ADMIN_PASSWORD` environment variable
    - Check browser's developer tools for network errors
 
-## 📝 Development Notes
+## Development Notes
 
 - The email service is currently a stub implementation
 - Admin authentication uses simple session storage
 - Database tables are created automatically on startup
 - All API responses follow consistent error handling patterns
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -218,12 +218,12 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-**Built with ❤️ using FastAPI, Next.js, and modern web technologies.**
+**Built with using FastAPI, Next.js, and modern web technologies.**
 
 
