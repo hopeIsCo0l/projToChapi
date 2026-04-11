@@ -15,6 +15,13 @@ interface WaitlistResponse {
   total: number;
 }
 
+interface WhiteListEntry {
+
+  entries : WhiteListEntry[];
+
+
+}
+
 export default function AdminDashboard() {
   const [entries, setEntries] = useState<WaitlistEntry[]>([]);
   const [isLoading, setIsLoading] = useState(true);
