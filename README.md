@@ -4,7 +4,7 @@ A full-stack waitlist management system built with FastAPI, Next.js, and Postgre
 
 ## Live Demo
 
-- **Frontend (Waitlist)**: [https://your-frontend.vercel.app](https://your-frontend.vercel.app)
+- **Frontend (Waitlist)**: [https://***.vercel.app](https://your-frontend.vercel.app)
 - **Backend API**: [https://your-backend.onrender.com](https://your-backend.onrender.com)
 - **Admin Dashboard**: [https://your-frontend.vercel.app/admin/login](https://your-frontend.vercel.app/admin/login)
 
