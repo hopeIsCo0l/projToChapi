@@ -4,8 +4,8 @@ A full-stack waitlist management system built with FastAPI, Next.js, and Postgre
 
 ## Live Demo
 
-- **Frontend (Waitlist)**: [https://***.vercel.app](https://your-frontend.vercel.app)
-- **Backend API**: [https://your-backend.onrender.com](https://your-backend.onrender.com)
+- **Frontend (Waitlist)**: [https://***.vercel.app](.vercel.app)
+- **Backend API**: [https://.onrender.com](.onrender.com)
 - **Admin Dashboard**: [https://your-frontend.vercel.app/admin/login](https://your-frontend.vercel.app/admin/login)
 
 **Admin Password**: `admin123`
@@ -52,9 +52,7 @@ projtoChapi/
 ├── Dockerfile
 ├── render.yaml
 ├── vercel.json
-└── README.md
-```
-
+└── READ
 ## Quick Start (Local Development)
 
 ### Prerequisites
