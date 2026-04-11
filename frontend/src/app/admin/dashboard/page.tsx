@@ -27,6 +27,7 @@ export default function AdminDashboard() {
   const fetchEntries = useCallback(async () => {
     try {
       setIsLoading(true);
+setIsLoading(true);
       setError('');
       setError('')
 
