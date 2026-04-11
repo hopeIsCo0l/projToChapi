@@ -28,6 +28,7 @@ export default function AdminDashboard() {
     try {
       setIsLoading(true);
       setError('');
+      setError('')
 
       let password = adminPassword;
       if (!password) {
