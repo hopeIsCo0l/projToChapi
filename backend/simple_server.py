@@ -74,10 +74,12 @@ async def signup_waitlist(entry: WaitlistEntry):
 async def get_waitlist_entries():
     waitlist = load_waitlist()
     return WaitlistResponse(entries=waitlist, total=len(waitlist))
-
 if __name__ == "__main__":
-    import uvicorn
+    import uvcorn
     import os
+
+#if __name__ == "__main__":
+ 
     
     # Get port from environment variable (Railway sets this)
     port = int(os.environ.get("PORT", 8000))
