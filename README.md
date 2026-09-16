@@ -21,7 +21,7 @@ A full-stack waitlist management system built with FastAPI, Next.js, and Postgre
 ## Project Structure
 
 ```
-projtoChapi/
+projtoChapi/jdjdjdurue
 ├── backend/
 │   ├── app/
 │   │   ├── api/
