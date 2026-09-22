@@ -1,4 +1,4 @@
-# Waitlist & Admin Dashboard
+# Waitlist & Admin Dashboardb
 
 A full-stack waitlist management system built with FastAPI, Next.js, and PostgreSQL. Users can join a waitlist, and administrators can view and manage entries through a secure dashboard.
 
