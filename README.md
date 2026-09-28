@@ -35,7 +35,7 @@ projtoChapi/jdjdjdurue
 │   │   ├── models.py            # SQLAlchemy models
 │   │   └── schemas.py           # Pydantic schemas
 │   └── requirements.txt
-├── frontend/
+├── frontend/iii8888
 │   ├── src/
 │   │   ├── app/
 │   │   │   ├── admin/
